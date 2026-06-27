@@ -1,0 +1,27 @@
+# Environnement virtuel Python
+venv/
+.python-version
+
+# Caches Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Sorties de SUMO (fichiers régénérables)
+*.xml.gz
+tripinfo*.xml
+summary*.xml
+*.out.xml
+
+# Résultats d'entraînement et logs
+runs/
+logs/
+tensorboard/
+*.zip
+outputs/
+
+# Fichiers système macOS
+.DS_Store
+
+# Données lourdes éventuelles
+*.csv.gz
