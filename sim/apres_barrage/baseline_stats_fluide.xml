@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-06-28T01:19:50.033258+00:00 by Eclipse SUMO sumo 1.27.1
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="routes_fluide.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="baseline_tripinfo_fluide.xml"/>
+        <statistic-output value="baseline_stats_fluide.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</sumoConfiguration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <performance clockBegin="1782609590.04" clockEnd="1782609591.55" clockDuration="1.51" traciDuration="3.60" realTimeFactor="2382.53" vehicleUpdatesPerSecond="605863.67" personUpdatesPerSecond="0.00" begin="0.00" end="3600.00" duration="3600.00"/>
+    <vehicles loaded="1440" inserted="1276" running="532" waiting="164"/>
+    <teleports total="149" jam="36" yield="97" wrongLane="16"/>
+    <safety collisions="0" emergencyStops="0" emergencyBraking="0"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <personTeleports total="0" abortWait="0" wrongDest="0"/>
+    <vehicleTripStatistics count="744" routeLength="734.15" speed="7.01" duration="302.33" waitingTime="216.46" timeLoss="245.87" departDelay="13.36" departDelayWaiting="-1.00" totalTravelTime="224933.00" totalDepartDelay="9942.00"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>
